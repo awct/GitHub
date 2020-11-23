@@ -2,17 +2,17 @@ package com.company.domain;
 
 import java.math.BigDecimal;
 
-public class food {
+public class Food {
     private int foodId;
     private String foodName;
     private String foodExplain;;
     private BigDecimal foodPrice;
     private int businessId;
 
-    public food() {
+    public Food() {
     }
 
-    public food(int foodId, String foodName, String foodExplain, BigDecimal foodPrice, int businessId) {
+    public Food(int foodId, String foodName, String foodExplain, BigDecimal foodPrice, int businessId) {
         this.foodId = foodId;
         this.foodName = foodName;
         this.foodExplain = foodExplain;
